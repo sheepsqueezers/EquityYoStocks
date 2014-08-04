@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.equityyostocks.MainActivity" >
+
+    <item
+        android:id="@+id/mUsersGuide"
+        android:orderInCategory="100"
+        android:title="User's Guide"
+        />
+    <item
+        android:id="@+id/mManagePorfolio"
+        android:orderInCategory="200"
+        android:title="Portfolio"
+        />
+    <item
+        android:id="@+id/mSettings"
+        android:orderInCategory="300"
+        android:title="Settings"
+        />
+    <item
+        android:id="@+id/mSearch"
+        android:orderInCategory="400"
+        android:title="Search"
+        />
+    
+</menu>

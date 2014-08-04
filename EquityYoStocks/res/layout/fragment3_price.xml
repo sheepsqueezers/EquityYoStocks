@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/llPriceChart">
+
+    <TextView android:text="PRICE INFORMATION:" android:textSize="15sp" android:textStyle="bold" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent" />	  	  	  	  	  	      
+    <com.iguanaui.controls.DataChart android:id="@+id/igPriceChart" 
+        android:contentDescription="@null" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" /> 	
+
+</LinearLayout>

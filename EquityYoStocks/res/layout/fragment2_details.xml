@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/llstock_symbol_detail_layout">
+
+  <RelativeLayout android:padding="5.0px" android:layout_width="fill_parent" android:layout_height="wrap_content">	  	  	  	  	  	  
+   <TextView android:id="@+id/tvSTOCK_Symbol"           android:layout_alignParentLeft="true" android:gravity="left"  android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="match_parent" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceLarge"/>
+   <TextView android:id="@+id/tvSTOCK_MaxMonthPriceNAV" android:layout_alignParentRight="true" android:gravity="right" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="match_parent" android:textStyle="bold" android:textAppearance="?android:attr/textAppearanceLarge"/>
+  </RelativeLayout>	
+
+  <TextView android:id="@+id/tvSTOCK_sName" android:background="@drawable/color5" android:paddingTop="2.0px" android:paddingLeft="10.0px" android:paddingRight="10.0px" android:paddingBottom="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textStyle="bold"/>
+  <TextView android:id="@+id/tvSTOCK_sInfo" android:padding="10.0px" android:background="@drawable/color7" android:fadeScrollbars="false" android:maxLines="10" android:scrollbars="vertical" android:scrollbarStyle="outsideOverlay" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="italic" android:textAppearance="?android:attr/textAppearanceSmall"/>
+  <TextView android:id="@+id/tvSTOCK_Sector" android:textStyle="bold" android:background="@drawable/color5" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent"/>	
+  <TextView android:id="@+id/tvSTOCK_Industry" android:textStyle="bold" android:background="@drawable/color5" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent"/>
+  <TextView android:id="@+id/tvSTOCK_sMktCapNetAssets" android:textStyle="bold" android:background="@drawable/color5" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent" />
+  <TextView android:id="@+id/tvSTOCK_sAverage3MonthVolume" android:textStyle="bold" android:background="@drawable/color5" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent" />
+  <TextView android:id="@+id/tvSTOCK_sBeta" android:textStyle="bold" android:background="@drawable/color5" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent" />
+  <TextView android:id="@+id/tvSTOCK_sEPS" android:textStyle="bold" android:background="@drawable/color5" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent" />
+  <TextView android:id="@+id/tvSTOCK_sPERatio" android:textStyle="bold" android:background="@drawable/color5" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent" />
+  <TextView android:id="@+id/tvSTOCK_sTargetEstimate" android:textStyle="bold" android:background="@drawable/color5" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent" />
+  <TextView android:id="@+id/tvSTOCK_PriceGain" android:textStyle="bold" android:background="@drawable/color5" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent" />	  
+  <TextView android:id="@+id/tvSTOCK_ComputedYield" android:textStyle="bold" android:background="@drawable/color5" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent" />
+  <TextView android:id="@+id/tvSTOCK_ComputedDividend" android:textStyle="bold" android:background="@drawable/color5" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent" />
+  <TextView android:id="@+id/tvSTOCK_sDisplayedYield" android:textStyle="bold" android:background="@drawable/color5" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent" />
+  <TextView android:id="@+id/tvSTOCK_sDisplayedDividend" android:textStyle="bold" android:background="@drawable/color5" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent" />
+  <TextView android:id="@+id/tvSTOCK_DividendFrequency" android:textStyle="bold" android:background="@drawable/color5" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent" />
+  <TextView android:id="@+id/tvSTOCK_DividendConsistency" android:textStyle="bold" android:background="@drawable/color5" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent" />
+  <TextView android:id="@+id/tvSTOCK_DivGain" android:textStyle="bold" android:background="@drawable/color5" android:padding="10.0px" android:layout_height="wrap_content" android:layout_width="fill_parent" />
+
+</LinearLayout>
+

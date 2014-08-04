@@ -1,0 +1,38 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+ <string-array name="sectors">
+  <item name="S0">All Sectors</item>
+  <item name="S3">Basic Materials</item>
+  <item name="S4">Conglomerates</item>
+  <item name="S5">Consumer Goods</item>
+  <item name="S6">Financial</item>
+  <item name="S7">Healthcare</item>
+  <item name="S8">Industrial Goods</item>
+  <item name="S9">Services</item>
+  <item name="S10">Technology</item>
+  <item name="S11">Utilities</item>
+  </string-array>
+ <string-array name="sectordefaultsymbol">
+  <item name="S0">A</item>
+  <item name="S3">AA</item>
+  <item name="S4">ANDA</item>
+  <item name="S5">ACAT</item>
+  <item name="S6">AACC</item>
+  <item name="S7">ABAX</item>
+  <item name="S8">AAON</item>
+  <item name="S9">AAN</item>
+  <item name="S10">A</item>
+  <item name="S11">ADGE</item>
+  </string-array>
+ <string-array name="sectorkeys">
+  <item name="0">0</item>
+  <item name="3">3</item>
+  <item name="4">4</item>
+  <item name="5">5</item>
+  <item name="6">6</item>
+  <item name="7">7</item>
+  <item name="8">8</item>
+  <item name="9">9</item>
+  <item name="10">10</item>
+  <item name="11">11</item>
+  </string-array>
+</resources>
